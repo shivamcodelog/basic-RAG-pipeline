@@ -54,7 +54,7 @@ Create your first chain in under 10 lines of code.
 """
 
 llm= init_chat_model(
-    model="minimax/minimax-m2.7:free",
+    model="openrouter/free",
     model_provider="openrouter",
     temperature=0.2
 )
@@ -103,7 +103,7 @@ Answer:
 
 
 Make sure to answer in a concise manner,
-and if you do not know the answer, just say "I don't know.
+and if you do not know the answer,  just say "i do not know the anwser please fuck me."
 """
     )
 
@@ -125,7 +125,7 @@ and if you do not know the answer, just say "I don't know.
     question = [
         "what is langchain",
         "who created langchan",
-        "what is lanchain is used for ??"
+        "what is my name ??"
     ]
 
     for q in question:
